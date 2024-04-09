@@ -18,10 +18,7 @@ const jPCharacters = {
     ianMalcolm:`Jeff Goldblum`
 }
 
-function seeCharacters ({alanGrant, ellieSattler, ianMalcolm}){
-    
-    console.log(ellieSattler);
-    
+const seeCharacters = ({ellieSattler}) => {
+    console.log(ellieSattler);   
 }
 seeCharacters(jPCharacters)
-const {alanGrant, ellieSattler, ianMalcolm} = jPCharacters
